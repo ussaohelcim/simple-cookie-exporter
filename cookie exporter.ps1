@@ -15,9 +15,6 @@ $gChrome.historico = "C:\Users\"+$user+"\AppData\Local\Google\Chrome\User Data\H
 $gChrome.biscoito = "C:\Users\"+$user+"\AppData\Local\Google\Chrome\User Data\Cookies"
 $gChrome.caminho = "C:\Users\"+$user+"\AppData\Local\Google\Chrome\User Data"
 
-$gChrome2 = [Navegador]::new()
-$gChrome2.nome = "Google Chrome profile 2"
-$gChrome2.caminho =
 
 $mEdge = [Navegador]::new()
 $mEdge.nome = "Microsoft Edge"
